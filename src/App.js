@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import Exemple1 from './component/shouldcomponentupdate'
+import Exemple2 from './component/componentDidUpdate'
+import Exemple3 from './component/componentwillunmount'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Exemple1 />
+        <Exemple2 />
+        <Exemple3 />
     </div>
   );
 }
